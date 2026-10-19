@@ -61,7 +61,7 @@ button:disabled { opacity: .45; cursor: default; }
   const level = document.getElementById('level');
   const pointers = new Map();
   const state = { zoom: 1, x: 0, y: 0, split: 50, mode: null, last: null };
-  const MIN = 1, MAX = 5;
+  const MIN = 1, MAX = 8;
   const clamp = (n, lo, hi) => Math.min(hi, Math.max(lo, n));
   // Both supplied maps have almost the same aspect ratio. Their containing box is shared.
   const mapRatio = 2160 / 6120;
